@@ -15,4 +15,5 @@ def order():
     driver.find_element_by_class_name('shopingCar-icon').click()
     time.sleep(1)
     driver.find_element_by_class_name('el-icon-minus').click()
+    driver.close()
 order()
